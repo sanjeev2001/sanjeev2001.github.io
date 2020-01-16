@@ -13,12 +13,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .container-space {
-    padding:80px 20px;
+    padding:150px 20px;
 }
 
 /* Backgrounds */
 .background-teal {
     background-color: rgb(119, 95, 185);
+}
+
+.background-dark {
+    background-color: rgb(36, 35, 39);
 }
 
 /* Header */
@@ -44,3 +48,20 @@ nav#main ul li a {
     font-weight: 600;
     color: #ffffff;
 }
+
+/* Feature */
+.feature h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+/* Image */
+.circle {
+    height: 350px;
+    width: 350px;
+    background-color: rgb(58, 57, 57);
+    border-radius: 50%;
+  }
