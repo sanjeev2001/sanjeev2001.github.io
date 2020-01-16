@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Headers*/
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Containers */
+.container {
+    padding: 40px 20px;
+}
+
+.container-space {
+    padding:80px 20px;
+}
+
+/* Backgrounds */
+.background-teal {
+    background-color: rgb(119, 95, 185);
+}
+
+/* Header */
+header#main {
+
+}
+
+/* Comments */
+nav#main ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    float: right;
+}
+
+nav#main ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+nav#main ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+}
