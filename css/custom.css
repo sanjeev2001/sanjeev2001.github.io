@@ -43,6 +43,10 @@ h5 {
     background-color: #5352a3;
 }
 
+.background-asteroids {
+    padding-bottom: 37px;
+}
+
 /* Header */
 
 
@@ -79,6 +83,12 @@ nav#main ul li a {
     width: 350px;
     background-color: rgb(58, 57, 57);
     border-radius: 50%;
+}
+
+.img1 {
+    width:  302px;
+    height: 210px;
+    background-size: cover;
 }
 
 /* proj */
