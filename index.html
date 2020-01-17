@@ -39,22 +39,20 @@
     <div class="container background-teal">
         <header class="row" id="main">
             <div class="large-4 column">
-                <div class="brand">
 
-                </div>
             </div>
             <nav id="main" class="large-8 column">
                 <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About Me</a></li>
-                    <li><a href='#'>Projects</a></li>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#about'>About Me</a></li>
+                    <li><a href='#project'>Projects</a></li>
                     <li><a href='#'>Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div class="container-space background-dark">
+    <div class="container-space background-dark" id="home">
         <div class="row feature">
             <div class="large-5 column">
                 <h1>Sanjeev Sritharan</h1>
@@ -64,7 +62,7 @@
         </div>
     </div>
 
-    <div class="container-space">
+    <div class="container-space" id="about">
         <div class="row">
             <div class="large-4 column">
                 <h2>About me</h2>
@@ -75,17 +73,36 @@
     </div>
 
     <div class="container-space background-green proj">
-        <h2>Projects</h2>
+        <h2 id="project">Projects</h2>
         <p>These are the projects that I've worked on over the years which you can find on my github.</p>
 
         <div class="row">
             <div class="large-4 column">
                 <div class="item background-custom">
-                    <img src="img/javmos.gif">
+                    <input type="checkbox" id="zoomCheck1">
+                    <label for="zoomCheck1">
+                        <img src="img/javmos.gif">
+                    </label>
                 </div>
             </div>
-            <div class="large-4 column">2</div>
-            <div class="large-4 column">3</div>
+
+            <div class="large-4 column">
+                <div class="item background-custom">
+                    <input type="checkbox" id="zoomCheck2">
+                    <label for="zoomCheck2">
+                        <img src="img/asteroids.gif">
+                    </label>
+                </div>
+            </div>
+
+            <div class="large-4 column">
+                <div class="item background-custom">
+                    <input type="checkbox" id="zoomCheck3">
+                    <label for="zoomCheck3">
+                        <img src="img/editor.gif">
+                    </label>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="large-4 column">
@@ -103,7 +120,6 @@
                     <a href="https://github.com/sanjeev2001/Java-Image-Editor">Java-Image-Editor</a>
                 </h5>
             </div>
-            
         </div>
     </div>
 </body>
