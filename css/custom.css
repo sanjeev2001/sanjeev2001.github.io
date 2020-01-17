@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5 {
     background-color: rgb(36, 35, 39);
 }
 
+.background-green {
+    background-color: #5352a3;
+}
+
 /* Header */
 
 
@@ -63,3 +67,26 @@ nav#main ul li a {
     background-color: rgb(58, 57, 57);
     border-radius: 50%;
   }
+
+/* proj */
+
+.proj {
+    text-align: center;
+}
+
+.proj h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.proj p {
+    margin: 0 auto 60px auto;
+    color: #bda7e4;
+}
+
+.proj a {
+    color: #bda7e4;
+    margin-top: 30px;
+    display: inline-block;
+}
