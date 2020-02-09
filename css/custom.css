@@ -62,7 +62,9 @@ nav#main ul li a {
     text-transform: uppercase;
     font-weight: 600;
     color: #ffffff;
+    
 }
+
 
 /* Feature */
 .feature h1 {
@@ -134,6 +136,11 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked~label>img {
-    transform: scale(2);
+    transform: scale(1.5);
     cursor: zoom-out;
+}
+
+#project:target {
+    background-color: rgb(120, 190, 164);
+    /* -webkit-transition: all 1s linear; */
 }
